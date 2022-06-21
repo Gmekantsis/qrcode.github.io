@@ -29,7 +29,22 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### What I learned
 
 ```html
- <div class="card">
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card">
       <img
         src="https://cdn.glitch.global/6d9f6ebc-9b7c-463b-85b8-f353c7c6f6cf/qr.png?v=1655379299801"
       />
@@ -44,17 +59,58 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
         the next level
       </p>
     </div>
+  </body>
+</html>
+
 ```
 
 ```css
 body {
-background-color: #d5e1ef;
-height: 100vh;
-width: 100vw;
-display: flex;
-justify-content: center;
-align-items: center;
+  background-color: #d5e1ef;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.card {
+  width: 320px;
+  height: 497px;
+  background-color: white;
+  border-radius: 20px;
+}
+img {
+  width: 288px;
+  height: 288px;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 16px;
+  border-radius: 10px;
+}
+
+.text {
+  width: 288px;
+  height: 56px;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.bottomtext {
+  width: 256px;
+  height: 57px;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
 
 ```
 
