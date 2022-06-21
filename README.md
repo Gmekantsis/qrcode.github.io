@@ -28,7 +28,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-```
+```html
  <div class="card">
       <img
         src="https://cdn.glitch.global/6d9f6ebc-9b7c-463b-85b8-f353c7c6f6cf/qr.png?v=1655379299801"
@@ -46,7 +46,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
     </div>
 ```
 
-```
+```css
 body {
 background-color: #d5e1ef;
 height: 100vh;
@@ -55,6 +55,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 }
+
 ```
 
 ## Author
